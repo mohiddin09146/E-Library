@@ -1,0 +1,135 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("home3.jpg"); 
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center; 
+  background-attachment: fixed;
+}
+ .alert-box {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f44336;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.2);
+  }
+  .alert-box button {
+    background-color: white;
+    color: #f44336;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.custom-card {
+    width: 18%;
+    min-width: 200px;
+    height: 350px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    max-height: 300px; 
+    overflow: auto;
+}
+
+.custom-card img {
+    height: 150px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.custom-card .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.custom-card {
+   
+}
+.card-body {
+    max-height: 200px; 
+    overflow-y: auto; 
+}
+
+#navbarNav{
+  font-size: 25px;
+  float: right;
+  margin-left: 650px;
+}
+
+#lib{
+  font-size: 25px;
+  float: right;
+  margin-right: 100px;
+}
+.nav-item{
+  margin-right: 10px;
+}
+.extra{
+  font-size: 28px;
+  text-align: center;
+  color: #FFFFFF;
+  width: 100%;
+  height: 10%;
+  background-image: linear-gradient(45deg, #070a11f0, #1c202a, #0d1118, #111722, #0b0e13ed);
+}
+.container {
+  margin-top: 20px;
+}
+
+.extra {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  padding: 15px;
+  background-color: #2e4b59; /* Darker background for contrast */
+  color: white;
+  border-radius: 8px; /* Slightly smoother corners */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Added subtle shadow */
+}
+
+.book-card {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.card {
+  background: linear-gradient(45deg, #000000, #000000, #182933, #1e222a, #000000);
+  color: white;
+  padding: 20px; /* More spacious padding */
+  border-radius: 10px; /* Smooth edges */
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25); /* Deeper shadow for a premium feel */
+}
+
+/* Ensure the book display section doesn't appear white */
+#extra {
+  background-color: #000000e0; /* Match the `.extra` background */
+  padding: 20px;
+  border-radius: 8px;
+}
+#contacts1 {
+  background-color:#000000a1;
+  color:#ffffffe1;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 30px;
+}

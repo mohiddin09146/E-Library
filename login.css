@@ -1,0 +1,28 @@
+body {
+    background-image: url("../background.jpeg"), linear-gradient(45deg, rgba(255, 0, 150, 0.3), rgba(0, 204, 255, 0.3));
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center; /* Centers the image */
+    background-attachment: fixed; /* Makes the background fixed while scrolling */
+    animation: gradient-shift 1s infinite alternate; /* Adds a gradient animation */
+}
+
+/* Keyframes for the gradient animation */
+@keyframes gradient-shift {
+    0% {
+        background-image: url("../background.jpeg"), linear-gradient(45deg, rgba(255, 0, 150, 0.3), rgba(0, 204, 255, 0.3));
+    }
+    50% {
+        background-image: url("../background.jpeg"), linear-gradient(45deg, rgba(0, 204, 255, 0.3), rgba(255, 255, 0, 0.3));
+    }
+    100% {
+        background-image: url("../background.jpeg"), linear-gradient(45deg, rgba(255, 255, 0, 0.3), rgba(255, 0, 150, 0.3));
+    }
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+.navbar {
+    background-color: #2a2a28;
+    color: white;
+}

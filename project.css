@@ -1,0 +1,19 @@
+.bg-gradient {
+    background: linear-gradient(135deg, #007bff, #6610f2);
+}
+
+.custom-box {
+    width: 60%;
+    max-width: 450px;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    transition: 0.3s ease-in-out;
+}
+body {
+    background-image: url('../background.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

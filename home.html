@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/home.css">
+    <title>home</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark text-light bg-dark">
+  <a class="navbar-brand" id="lib" href="#">E-library</a>
+
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+      <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+      
+      <li class="nav-item"><a class="nav-link" href="#contacts">Contacts</a></li>
+    </ul>
+  </div>
+</nav>
+  <input type="text" id="searchInput" class="form-control mb-3" placeholder="&#128269 Search Books..." oninput="searchBooksSeparate()"  onblur="clearSearchResults()">
+<div id="searchResults" class="row"></div>
+
+  <div id="cards-container" class="d-flex flex-wrap justify-content-center">
+</div>
+  </div>
+      <div id="custom-alert" class="alert-box">
+  <p id="alert-message"></p>
+  <center>
+  <button class="text-center" onclick="closeAlert()">OK</button>
+  </center>
+  </div>
+   <div class="container">
+   
+  <div class="extra">Extra Books</div>
+    <button id="showBooksBtn" class="btn btn-primary mb-3" onclick="extra_books()">Show Books</button>
+    <div id="extra" class="row"></div>
+  </div>
+
+    <script src="js/home.js">
+    </script>
+    <div id="contacts1">
+    <div id="about">
+      <h2>About:</h2>
+      <h4>
+    Welcome to <strong>E-Library</strong> — a smart web-based platform designed to transform the way students and library staff connect. This system enhances accessibility, simplifies resource discovery, and helps academic institutions make data-informed decisions to improve learning outcomes.
+      </h4>
+    </div>
+    <div id="contacts">
+      <h2>Contacts:</h2>
+      <h4>+919381621252</h4>
+      <h4>+916309561361</h2>
+      <h4>+917893830638</h4>
+      <h4>+919347546127</h4>
+      <h4>+918688103445</h4>
+      <h4>krsantu2005@gmail.com</h4>
+      <h4>maseedumohiddin@gmail.com</h4>
+    </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+       
+    </style>
+</head>
+<body>
+    <nav class="navbar text-center display-5">E-Library</nav>
+    <div>
+        <div class="container">
+            <div class="col-md-4 offset-md-4 mt-5">
+                <div class="card bg-sucess">
+                    <div class="card-header text-center text-white bg-dark">Login</div>
+                    <div class="card-body">
+                        <form id="loginForm" onsubmit="login(event)">
+                            <div class="mb-3">
+                            </div>
+                            <div class="mb-3">
+                                <p id="msg"></p>
+                                <label for="password" class="form-label">Roll Number</label>
+                                <input type="password" class="form-control" id="password" name="password" required>
+                            </div>
+                             <button type="submit" class="btn btn-primary w-100">Login</button>
+                        </form>
+                        <p id="error-message" class="text-danger mt-2"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/login.js"></script>
+</body>
+</html>
